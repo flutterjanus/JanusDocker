@@ -86,5 +86,6 @@ COPY conf/*.jcfg /opt/janus/etc/janus/
 # 
 EXPOSE 7088 8088 8188 8089 7188
 EXPOSE 10000-10200/udp
-# 
+#
+#CMD /bin/sh 
 CMD /opt/janus/bin/janus
