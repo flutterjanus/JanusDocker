@@ -13,7 +13,7 @@ general: {
 		# The next settings configure logging
 	#log_to_stdout = false					# Whether the Janus output should be written
 											# to stdout or not (default=true)
-	#log_to_file = "/path/to/janus.log"		# Whether to use a log file or not
+	log_to_file = "/opt/janus/janus.log"		# Whether to use a log file or not
 	debug_level = 4							# Debug/logging level, valid values are 0-7
 	#debug_timestamps = true				# Whether to show a timestamp for each log line
 	#debug_colors = false					# Whether colors should be disabled in the log
@@ -245,8 +245,8 @@ media: {
 # be used for gathering candidates, and enable or disable the
 # internal libnice debugging, if needed.
 nat: {
-	#stun_server = "stun.voip.eutelia.it"
-	#stun_port = 3478
+	stun_server = "stun.voip.eutelia.it"
+	stun_port = 3478
 	nice_debug = false
 	#full_trickle = true
 	#ice_lite = true
