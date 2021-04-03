@@ -1,0 +1,11 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  JanusMultistreaming:
+    build: .
+    ports:
+      - "7088"
+      - "8088"
+      - "8188"
+      - "7188"
+      - "8089"
+      - "10000-10200:10000-10200/udp"
