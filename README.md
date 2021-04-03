@@ -8,3 +8,5 @@ Get all `Dockerfile` here for building janusgateway image
 # Run
 	docker run -d dockerusername/imagename:tag
 		
+# docker compose
+	docker-compose up -d # note option -d to start it in detached mode
