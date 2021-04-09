@@ -1,0 +1,24 @@
+<map id="sdp.c" name="sdp.c">
+<area shape="rect" id="node4" href="$janus_8h.html" title="Janus core (headers) " alt="" coords="879,80,948,107"/>
+<area shape="rect" id="node16" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="1484,528,1559,555"/>
+<area shape="rect" id="node20" href="$ice_8h.html" title="Janus handles and ICE/STUN/TURN processing (headers) " alt="" coords="1757,155,1811,181"/>
+<area shape="rect" id="node22" href="$sdp_8h.html" title="SDP processing (headers) " alt="" coords="1689,229,1746,256"/>
+<area shape="rect" id="node39" href="$utils_8h.html" title="TURN REST API client. " alt="" coords="297,379,359,405"/>
+<area shape="rect" id="node40" href="$ip-utils_8h.html" title="IP address related utility functions (headers) " alt="" coords="2675,229,2754,256"/>
+<area shape="rect" id="node47" href="$events_8h.html" title="Event handler notifications (headers) " alt="" coords="1373,229,1451,256"/>
+<area shape="rect" id="node13" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="1418,453,1494,480"/>
+<area shape="rect" id="node24" href="$refcount_8h.html" title="Reference counter mechanism. " alt="" coords="1744,379,1832,405"/>
+<area shape="rect" id="node43" href="$plugin_8h.html" title="Plugin&#45;Core communication (implementation) " alt="" coords="1112,304,1237,331"/>
+<area shape="rect" id="node44" href="$transport_8h.html" title="Modular Janus API transports. " alt="" coords="925,304,1088,331"/>
+<area shape="rect" id="node45" href="$eventhandler_8h.html" title="Modular Janus event handlers (headers) " alt="" coords="633,304,799,331"/>
+<area shape="rect" id="node46" href="$logger_8h.html" title="Modular Janus loggers (headers) " alt="" coords="430,304,557,331"/>
+<area shape="rect" id="node19" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="1051,603,1106,629"/>
+<area shape="rect" id="node25" href="$dtls_8h.html" title="DTLS/SRTP processing (headers) " alt="" coords="2060,229,2119,256"/>
+<area shape="rect" id="node32" href="$sctp_8h.html" title="SCTP processing for data channels (headers) " alt="" coords="1688,304,1749,331"/>
+<area shape="rect" id="node37" href="$rtcp_8h.html" title="RTCP processing (headers) " alt="" coords="1989,304,2048,331"/>
+<area shape="rect" id="node38" href="$text2pcap_8h.html" title="Dumping of RTP/RTCP packets to text2pcap or pcap format (headers) " alt="" coords="1363,304,1461,331"/>
+<area shape="rect" id="node23" href="$sdp-utils_8h.html" title="SDP utilities (headers) " alt="" coords="1824,304,1915,331"/>
+<area shape="rect" id="node26" href="$rtp_8h.html" title="RTP processing (headers) " alt="" coords="2123,304,2175,331"/>
+<area shape="rect" id="node29" href="$rtpsrtp_8h.html" title="SRTP definitions (headers) " alt="" coords="2748,304,2825,331"/>
+<area shape="rect" id="node33" href="$dtls-bio_8h.html" title="OpenSSL BIO agent writer. " alt="" coords="2356,304,2439,331"/>
+</map>

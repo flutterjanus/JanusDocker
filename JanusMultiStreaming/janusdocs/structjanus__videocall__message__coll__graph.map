@@ -1,0 +1,4 @@
+<map id="janus_videocall_message" name="janus_videocall_message">
+<area shape="rect" id="node2" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="20,95,180,121"/>
+<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="41,5,159,32"/>
+</map>

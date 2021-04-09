@@ -1,0 +1,10 @@
+<map id="janus_videoroom_subscriber_stream" name="janus_videoroom_subscriber_stream">
+<area shape="rect" id="node2" href="$structjanus__vp8__simulcast__context.html" title="VP8 simulcasting context, in order to make sure SSRC changes result in coherent picid/temporal level ..." alt="" coords="854,5,1013,47"/>
+<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="5,185,124,211"/>
+<area shape="rect" id="node5" href="$structjanus__videoroom__subscriber.html" title="janus_videoroom_subscriber" alt="" coords="829,133,1037,159"/>
+<area shape="rect" id="node6" href="$structjanus__videoroom__session.html" title="janus_videoroom_session" alt="" coords="537,185,728,211"/>
+<area shape="rect" id="node7" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="195,246,355,273"/>
+<area shape="rect" id="node8" href="$structjanus__videoroom.html" title="janus_videoroom" alt="" coords="379,279,513,306"/>
+<area shape="rect" id="node4" href="$structjanus__rtp__simulcasting__context.html" title="Helper struct for processing and tracking simulcast streams. " alt="" coords="847,184,1019,225"/>
+<area shape="rect" id="node9" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="858,249,1009,291"/>
+</map>

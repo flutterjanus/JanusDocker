@@ -1,0 +1,10 @@
+<map id="ssip_s" name="ssip_s">
+<area shape="rect" id="node2" href="$structjanus__sip__session.html" title="janus_sip_session" alt="" coords="531,141,669,168"/>
+<area shape="rect" id="node3" href="$structjanus__sip__media.html" title="janus_sip_media" alt="" coords="280,72,411,99"/>
+<area shape="rect" id="node4" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="5,65,156,106"/>
+<area shape="rect" id="node5" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="265,185,425,212"/>
+<area shape="rect" id="node6" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="21,209,140,236"/>
+<area shape="rect" id="node7" href="$structjanus__sdp.html" title="Janus SDP internal object representation. " alt="" coords="302,236,389,263"/>
+<area shape="rect" id="node8" href="$structjanus__recorder.html" title="Structure that represents a recorder. " alt="" coords="286,287,405,313"/>
+<area shape="rect" id="node9" href="$structjanus__sip__account.html" title="janus_sip_account" alt="" coords="275,339,416,365"/>
+</map>

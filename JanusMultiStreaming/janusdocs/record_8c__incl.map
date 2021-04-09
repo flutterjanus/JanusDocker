@@ -1,0 +1,8 @@
+<map id="record.c" name="record.c">
+<area shape="rect" id="node8" href="$record_8h.html" title="Audio/Video recorder. " alt="" coords="515,80,590,107"/>
+<area shape="rect" id="node15" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="714,304,789,331"/>
+<area shape="rect" id="node19" href="$utils_8h.html" title="TURN REST API client. " alt="" coords="928,80,991,107"/>
+<area shape="rect" id="node13" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="561,229,637,256"/>
+<area shape="rect" id="node18" href="$refcount_8h.html" title="Reference counter mechanism. " alt="" coords="686,155,774,181"/>
+<area shape="rect" id="node17" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="620,379,675,405"/>
+</map>

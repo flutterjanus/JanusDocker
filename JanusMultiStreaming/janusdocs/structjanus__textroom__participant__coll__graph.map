@@ -1,0 +1,6 @@
+<map id="janus_textroom_participant" name="janus_textroom_participant">
+<area shape="rect" id="node2" href="$structjanus__textroom__session.html" title="janus_textroom_session" alt="" coords="33,196,213,223"/>
+<area shape="rect" id="node3" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="93,95,253,121"/>
+<area shape="rect" id="node4" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="50,5,169,32"/>
+<area shape="rect" id="node5" href="$structjanus__textroom__room.html" title="janus_textroom_room" alt="" coords="203,145,368,172"/>
+</map>

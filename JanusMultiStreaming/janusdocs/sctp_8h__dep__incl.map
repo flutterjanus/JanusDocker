@@ -1,0 +1,10 @@
+<map id="sctp.h" name="sctp.h">
+<area shape="rect" id="node2" href="$dtls_8h.html" title="DTLS/SRTP processing (headers) " alt="" coords="54,80,113,107"/>
+<area shape="rect" id="node3" href="$ice_8h.html" title="Janus handles and ICE/STUN/TURN processing (headers) " alt="" coords="123,155,177,181"/>
+<area shape="rect" id="node6" href="$dtls_8c.html" title="DTLS/SRTP processing. " alt="" coords="5,304,63,331"/>
+<area shape="rect" id="node4" href="$dtls-bio_8c.html" title="dtls&#45;bio.c" alt="" coords="109,229,191,256"/>
+<area shape="rect" id="node5" href="$janus_8h.html" title="Janus core (headers) " alt="" coords="215,229,285,256"/>
+<area shape="rect" id="node7" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing. " alt="" coords="296,304,348,331"/>
+<area shape="rect" id="node9" href="$sdp_8c.html" title="SDP processing. " alt="" coords="111,304,167,331"/>
+<area shape="rect" id="node8" href="$janus_8c.html" title="Janus core. " alt="" coords="204,304,272,331"/>
+</map>

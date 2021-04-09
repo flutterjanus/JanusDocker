@@ -1,0 +1,8 @@
+<map id="janus_streaming_rtp_source_stream" name="janus_streaming_rtp_source_stream">
+<area shape="rect" id="node2" href="$structjanus__network__address.html" title="Structure to hold network addresses in a tagged union which should be IPv4 and IPv6 compatible..." alt="" coords="199,5,373,32"/>
+<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="5,88,124,115"/>
+<area shape="rect" id="node5" href="$structjanus__recorder.html" title="Structure that represents a recorder. " alt="" coords="227,119,345,145"/>
+<area shape="rect" id="node4" href="$structjanus__streaming__rtp__keyframe.html" title="janus_streaming_rtp\l_keyframe" alt="" coords="209,170,363,211"/>
+<area shape="rect" id="node6" href="$structjanus__streaming__codecs.html" title="janus_streaming_codecs" alt="" coords="195,236,377,263"/>
+<area shape="rect" id="node7" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="211,287,361,329"/>
+</map>

@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['nack_5fcount',['nack_count',['../structrtcp__context.html#ad047c7d257ac5cca63413ed1360d35b6',1,'rtcp_context']]],
+  ['nack_5fqueue_5fms',['nack_queue_ms',['../structjanus__ice__peerconnection__medium.html#ac44cf290e7f5fb0dbd066f7da8c1abff',1,'janus_ice_peerconnection_medium']]],
+  ['nack_5fsent_5flog_5fts',['nack_sent_log_ts',['../structjanus__ice__peerconnection__medium.html#aebdf6ca41ab7f8452b6ae3aec61f80c0',1,'janus_ice_peerconnection_medium']]],
+  ['nack_5fsent_5frecent_5fcnt',['nack_sent_recent_cnt',['../structjanus__ice__peerconnection__medium.html#aa6b8e551e9fdfe0f489b219601497fde',1,'janus_ice_peerconnection_medium']]],
+  ['nacks',['nacks',['../structjanus__ice__stats__info.html#a7e6fe91512f1b72f96d032c4f60586ad',1,'janus_ice_stats_info']]],
+  ['name',['name',['../structjanus__config__container.html#ae3c0e9f9a715a64c486bd25b25c4a909',1,'janus_config_container::name()'],['../structjanus__config.html#af3aea6b3cfbc4e2c37c8b2b5596fcd26',1,'janus_config::name()'],['../structrtcp__app.html#a92793ae072761ec57f5431a8312e77bf',1,'rtcp_app::name()'],['../structjanus__sdp__attribute.html#a6a47ab52b12cdcdbb4e497a0bf0f518f',1,'janus_sdp_attribute::name()'],['../structjanus__json__parameter.html#a9c61b3df15a2871477d1d555c760a087',1,'janus_json_parameter::name()'],['../structjanus__recordplay__recording.html#a346494369de30a28a98d3b76622b202d',1,'janus_recordplay_recording::name()'],['../structjanus__streaming__mountpoint.html#a1e60a8d54817fd819b0d635d86e2f689',1,'janus_streaming_mountpoint::name()']]],
+  ['need_5fpli',['need_pli',['../structjanus__rtp__simulcasting__context.html#ad77ed4da5264e3e2627ae2118907bd99',1,'janus_rtp_simulcasting_context::need_pli()'],['../structjanus__streaming__rtp__source__stream.html#a9695523c0962b2c7e80d3f8bf05a60c7',1,'janus_streaming_rtp_source_stream::need_pli()']]],
+  ['network',['network',['../structjanus__text2pcap__global__header.html#aee244dd5f86d48f55c7c234ca37f8ec9',1,'janus_text2pcap_global_header::network()'],['../structmjr2pcap__global__header.html#a3368793aa14958b74cbeb1abea333d41',1,'mjr2pcap_global_header::network()']]],
+  ['new_5fssrc',['new_ssrc',['../structjanus__rtp__switching__context.html#a7fc709d42ba9c01fe925cb6302aa093d',1,'janus_rtp_switching_context']]],
+  ['next',['next',['../structjanus__seq__info.html#abd0e2b9bfffa47d86d67ca6a1aed868b',1,'janus_seq_info::next()'],['../structjanus__log__buffer.html#a82267b74a7a01bc3e54c5c1bb5cfcffc',1,'janus_log_buffer::next()'],['../structjanus__nack.html#a1b3f398d04936d9ab5c7e62ce99a921e',1,'janus_nack::next()'],['../structjanus__recordplay__frame__packet.html#a2c687cb3cd9a8149d76004a6338c6fc0',1,'janus_recordplay_frame_packet::next()'],['../structjanus__pp__frame__packet.html#a734d4a663280b94eb01ba03034337bf6',1,'janus_pp_frame_packet::next()']]],
+  ['nh_5fs',['nh_s',['../structjanus__sip__transfer.html#a9afb5986945ea03368b4ca3a8b32294e',1,'janus_sip_transfer']]],
+  ['noerrorlog',['noerrorlog',['../structjanus__ice__peerconnection.html#a409098871e3931d44b4d5060f7d4909d',1,'janus_ice_peerconnection::noerrorlog()'],['../structjanus__ice__peerconnection__medium.html#a8252f0bc44ca3822a0f91c7414882ad3',1,'janus_ice_peerconnection_medium::noerrorlog()']]],
+  ['nosip_20plugin_20documentation',['NoSIP plugin documentation',['../nosip.html',1,'']]],
+  ['notified_5flastsec',['notified_lastsec',['../structjanus__ice__stats__info.html#ab1de7787a9fa722baf147317c5ffe3ec',1,'janus_ice_stats_info']]],
+  ['notify_5fevent',['notify_event',['../structjanus__callbacks.html#ac40a5c938a2495c7fad9370abadb910e',1,'janus_callbacks::notify_event()'],['../structjanus__transport__callbacks.html#ad488ca95a5f035eb78725e94588be335',1,'janus_transport_callbacks::notify_event()']]],
+  ['notify_5fjoining',['notify_joining',['../structjanus__videoroom.html#a598a7d3d7960ed2e81d07fd28ecc94d0',1,'janus_videoroom']]],
+  ['ntohll',['ntohll',['../record_8c.html#a3cfcf123d4ead264289232f91f2c9ca5',1,'ntohll():&#160;record.c'],['../janus__recordplay_8c.html#a3cfcf123d4ead264289232f91f2c9ca5',1,'ntohll():&#160;janus_recordplay.c'],['../janus-pp-rec_8c.html#a3cfcf123d4ead264289232f91f2c9ca5',1,'ntohll():&#160;janus-pp-rec.c'],['../mjr2pcap_8c.html#a3cfcf123d4ead264289232f91f2c9ca5',1,'ntohll():&#160;mjr2pcap.c'],['../pcap2mjr_8c.html#a3cfcf123d4ead264289232f91f2c9ca5',1,'ntohll():&#160;pcap2mjr.c']]],
+  ['ntp_5fts_5flsw',['ntp_ts_lsw',['../structsender__info.html#acc29bc300a8e593e5fc6499f604c20b3',1,'sender_info']]],
+  ['ntp_5fts_5fmsw',['ntp_ts_msw',['../structsender__info.html#a6f179cd5f656d96245dd76411e9def13',1,'sender_info']]],
+  ['nua_5fhmagic_5ft',['NUA_HMAGIC_T',['../janus__sip_8c.html#a81d0d204a472008463e436c4dd142ca2',1,'janus_sip.c']]],
+  ['nua_5fmagic_5ft',['NUA_MAGIC_T',['../janus__sip_8c.html#a12350de8944c89f8ba4ac89c26e2736b',1,'janus_sip.c']]],
+  ['num_5fviewers',['num_viewers',['../structjanus__streaming__helper.html#a1601b865d49c9cf52f7b748d79a7eac4',1,'janus_streaming_helper']]]
+];

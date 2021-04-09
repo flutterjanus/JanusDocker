@@ -1,0 +1,4 @@
+<map id="janus_audiobridge_session" name="janus_audiobridge_session">
+<area shape="rect" id="node2" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="108,95,268,121"/>
+<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="23,5,142,32"/>
+</map>

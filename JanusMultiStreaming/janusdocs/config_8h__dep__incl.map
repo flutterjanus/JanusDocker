@@ -1,0 +1,34 @@
+<map id="config.h" name="config.h">
+<area shape="rect" id="node2" href="$config_8c.html" title="Configuration files parsing. " alt="" coords="5,80,77,107"/>
+<area shape="rect" id="node3" href="$janus-cfgconv_8c.html" title="Simple utility to convert Janus .cfg files to .jcfg and viceversa. " alt="" coords="101,80,224,107"/>
+<area shape="rect" id="node4" href="$janus_8c.html" title="Janus core. " alt="" coords="249,80,317,107"/>
+<area shape="rect" id="node5" href="$janus__audiobridge_8c.html" title="Janus AudioBridge plugin. " alt="" coords="341,80,493,107"/>
+<area shape="rect" id="node6" href="$janus__duktape__data_8h.html" title="Janus Duktape data/session definition (headers) " alt="" coords="517,80,683,107"/>
+<area shape="rect" id="node9" href="$janus__echotest_8c.html" title="Janus EchoTest plugin. " alt="" coords="707,80,837,107"/>
+<area shape="rect" id="node10" href="$janus__lua__data_8h.html" title="Janus Lua data/session definition (headers) " alt="" coords="862,80,994,107"/>
+<area shape="rect" id="node13" href="$janus__nosip_8c.html" title="Janus NoSIP plugin. " alt="" coords="1018,80,1129,107"/>
+<area shape="rect" id="node14" href="$janus__recordplay_8c.html" title="Janus Record&amp;Play plugin. " alt="" coords="1153,80,1295,107"/>
+<area shape="rect" id="node15" href="$janus__sip_8c.html" title="Janus SIP plugin. " alt="" coords="1319,80,1414,107"/>
+<area shape="rect" id="node16" href="$janus__streaming_8c.html" title="Janus Streaming plugin. " alt="" coords="1439,80,1580,107"/>
+<area shape="rect" id="node17" href="$janus__textroom_8c.html" title="Janus TextRoom plugin. " alt="" coords="1605,80,1739,107"/>
+<area shape="rect" id="node18" href="$janus__videocall_8c.html" title="Janus VideoCall plugin. " alt="" coords="1763,80,1898,107"/>
+<area shape="rect" id="node19" href="$janus__videoroom_8c.html" title="Janus VideoRoom plugin. " alt="" coords="1922,80,2067,107"/>
+<area shape="rect" id="node20" href="$janus__voicemail_8c.html" title="Janus VoiceMail plugin. " alt="" coords="2092,80,2231,107"/>
+<area shape="rect" id="node21" href="$janus__http_8c.html" title="Janus RESTs transport plugin. " alt="" coords="2255,80,2356,107"/>
+<area shape="rect" id="node22" href="$janus__mqtt_8c.html" title="Janus MQTT transport plugin. " alt="" coords="2380,80,2487,107"/>
+<area shape="rect" id="node23" href="$janus__nanomsg_8c.html" title="Janus Nanomsg transport plugin. " alt="" coords="2511,80,2646,107"/>
+<area shape="rect" id="node24" href="$janus__pfunix_8c.html" title="Janus Unix Sockets transport plugin. " alt="" coords="2670,80,2786,107"/>
+<area shape="rect" id="node25" href="$janus__rabbitmq_8c.html" title="Janus RabbitMQ transport plugin. " alt="" coords="2810,80,2945,107"/>
+<area shape="rect" id="node26" href="$janus__websockets_8c.html" title="Janus WebSockets transport plugin. " alt="" coords="2969,80,3121,107"/>
+<area shape="rect" id="node27" href="$janus__gelfevh_8c.html" title="Janus GelfEventHandler plugin. " alt="" coords="3146,80,3270,107"/>
+<area shape="rect" id="node28" href="$janus__mqttevh_8c.html" title="Janus MQTTEventHandler plugin. " alt="" coords="3295,80,3425,107"/>
+<area shape="rect" id="node29" href="$janus__nanomsgevh_8c.html" title="Janus NanomsgEventHandler plugin. " alt="" coords="3450,80,3609,107"/>
+<area shape="rect" id="node30" href="$janus__rabbitmqevh_8c.html" title="Janus RabbitMQEventHandler plugin. " alt="" coords="3633,80,3791,107"/>
+<area shape="rect" id="node31" href="$janus__sampleevh_8c.html" title="Janus SampleEventHandler plugin. " alt="" coords="3816,80,3963,107"/>
+<area shape="rect" id="node32" href="$janus__wsevh_8c.html" title="Janus WebSockets EventHandler plugin. " alt="" coords="3987,80,4104,107"/>
+<area shape="rect" id="node33" href="$janus__jsonlog_8c.html" title="Janus JSON logger plugin. " alt="" coords="4128,80,4251,107"/>
+<area shape="rect" id="node7" href="$janus__duktape_8c.html" title="Janus JavaScript plugin (via Duktape) " alt="" coords="448,155,576,181"/>
+<area shape="rect" id="node8" href="$janus__duktape__extra_8c.html" title="Janus Duktape plugin extra hooks. " alt="" coords="601,155,770,181"/>
+<area shape="rect" id="node11" href="$janus__lua_8c.html" title="Janus Lua plugin. " alt="" coords="810,155,905,181"/>
+<area shape="rect" id="node12" href="$janus__lua__extra_8c.html" title="Janus Lua plugin extra hooks. " alt="" coords="929,155,1065,181"/>
+</map>

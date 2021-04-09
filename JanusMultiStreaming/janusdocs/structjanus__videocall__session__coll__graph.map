@@ -1,0 +1,8 @@
+<map id="janus_videocall_session" name="janus_videocall_session">
+<area shape="rect" id="node2" href="$structjanus__vp8__simulcast__context.html" title="VP8 simulcasting context, in order to make sure SSRC changes result in coherent picid/temporal level ..." alt="" coords="201,5,360,47"/>
+<area shape="rect" id="node3" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="201,134,361,161"/>
+<area shape="rect" id="node4" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="5,134,124,161"/>
+<area shape="rect" id="node6" href="$structjanus__recorder.html" title="Structure that represents a recorder. " alt="" coords="221,185,340,211"/>
+<area shape="rect" id="node5" href="$structjanus__rtp__simulcasting__context.html" title="Helper struct for processing and tracking simulcast streams. " alt="" coords="195,236,367,277"/>
+<area shape="rect" id="node7" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="205,301,356,343"/>
+</map>

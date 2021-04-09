@@ -1,25 +1,40 @@
-FROM ubuntu:18.04
+FROM ubuntu:bionic
 
 LABEL maintainer="shivansh talwar <shivanshtalwar0@gmail.com>"
 LABEL description="Provides an image with Janus Gateway"
 
 RUN apt-get update -y \
     && apt-get upgrade -y \
-    && apt install aptitude -y
+    && apt install aptitude wget -y
         
-RUN aptitude install libmicrohttpd-dev libjansson-dev \
+RUN aptitude install -y libmicrohttpd-dev libjansson-dev \
 	libssl-dev libsrtp-dev libsofia-sip-ua-dev libglib2.0-dev \
 	libopus-dev libogg-dev libcurl4-openssl-dev liblua5.3-dev \
-	libconfig-dev pkg-config gengetopt libtool automake libnanomsg-dev doxygen graphviz -y
+	libconfig-dev pkg-config gengetopt libtool automake libnanomsg-dev graphviz
 
 RUN apt-get install -y \
     sudo \
     make \
     git \
-    doxygen \
-    graphviz \
-    cmake
-RUN apt install python3 python3-pip nginx -y \
+    graphviz
+
+#RUN apt purge cmake -y
+
+RUN wget https://github.com/Kitware/CMake/releases/download/v3.20.1/cmake-3.20.1.tar.gz
+RUN tar -xf cmake-3.20.1.tar.gz
+RUN cd cmake-3.20.1/ && ./bootstrap && make -j$(nproc) && make install
+RUN echo "cmake installed!"    
+
+RUN wget https://github.com/doxygen/doxygen/archive/refs/tags/Release_1_8_11.tar.gz
+RUN tar -xf Release_1_8_11.tar.gz
+RUN apt-get install flex bison -y
+RUN cd doxygen-Release_1_8_11/ && mkdir build \
+&& cd build \
+&& cmake -G "Unix Makefiles" .. \
+&& make \
+&& make install
+
+RUN apt-get install python3 python3-pip nginx -y \
 	&& pip3 install meson ninja \
 	&& export PATH="$PATH:~/.local/bin"
 
@@ -72,7 +87,7 @@ RUN cd ~ \
     && cd janus-gateway \
     && git checkout multistream \
     && sh autogen.sh \
-    && ./configure --prefix=/opt/janus \
+    && ./configure --prefix=/opt/janus --enable-docs \
     && make CFLAGS='-std=c99' \
     && make install \
     && make configs

@@ -1,0 +1,14 @@
+<map id="janus_recordplay.c" name="janus_recordplay.c">
+<area shape="rect" id="node2" href="$plugin_8h.html" title="Plugin&#45;Core communication (implementation) " alt="" coords="505,80,580,107"/>
+<area shape="rect" id="node12" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="86,229,162,256"/>
+<area shape="rect" id="node15" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="32,304,107,331"/>
+<area shape="rect" id="node23" href="$apierror_8h.html" title="Janus API errors definition. " alt="" coords="1720,80,1816,107"/>
+<area shape="rect" id="node24" href="$config_8h.html" title="Configuration files parsing (headers) " alt="" coords="1332,229,1417,256"/>
+<area shape="rect" id="node25" href="$record_8h.html" title="Audio/Video recorder. " alt="" coords="210,80,297,107"/>
+<area shape="rect" id="node26" href="$sdp-utils_8h.html" title="SDP utilities (headers) " alt="" coords="682,80,785,107"/>
+<area shape="rect" id="node27" href="$rtp_8h.html" title="RTP processing (headers) " alt="" coords="1055,80,1119,107"/>
+<area shape="rect" id="node29" href="$rtcp_8h.html" title="RTCP processing (headers) " alt="" coords="879,80,950,107"/>
+<area shape="rect" id="node30" href="$utils_8h.html" title="TURN REST API client. " alt="" coords="1200,80,1275,107"/>
+<area shape="rect" id="node11" href="$refcount_8h.html" title="Reference counter mechanism. " alt="" coords="209,155,297,181"/>
+<area shape="rect" id="node17" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="171,379,226,405"/>
+</map>

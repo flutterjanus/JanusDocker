@@ -1,0 +1,75 @@
+<map id="log.h" name="log.h">
+<area shape="rect" id="node2" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="3576,80,3651,107"/>
+<area shape="rect" id="node74" href="$log_8c.html" title="Buffered logging. " alt="" coords="3675,80,3728,107"/>
+<area shape="rect" id="node3" href="$auth_8c.html" title="Requests authentication. " alt="" coords="2385,453,2448,480"/>
+<area shape="rect" id="node4" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="2378,155,2454,181"/>
+<area shape="rect" id="node8" href="$janus_8c.html" title="Janus core. " alt="" coords="2005,603,2073,629"/>
+<area shape="rect" id="node10" href="$dtls-bio_8c.html" title="dtls&#45;bio.c" alt="" coords="1891,528,1974,555"/>
+<area shape="rect" id="node12" href="$dtls_8c.html" title="DTLS/SRTP processing. " alt="" coords="4449,603,4506,629"/>
+<area shape="rect" id="node13" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing. " alt="" coords="2114,603,2166,629"/>
+<area shape="rect" id="node14" href="$sdp_8c.html" title="SDP processing. " alt="" coords="2475,603,2531,629"/>
+<area shape="rect" id="node15" href="$janus__audiobridge_8c.html" title="Janus AudioBridge plugin. " alt="" coords="518,379,670,405"/>
+<area shape="rect" id="node16" href="$janus__duktape__data_8h.html" title="Janus Duktape data/session definition (headers) " alt="" coords="278,379,443,405"/>
+<area shape="rect" id="node19" href="$janus__echotest_8c.html" title="Janus EchoTest plugin. " alt="" coords="694,379,824,405"/>
+<area shape="rect" id="node20" href="$janus__lua__data_8h.html" title="Janus Lua data/session definition (headers) " alt="" coords="1462,379,1594,405"/>
+<area shape="rect" id="node23" href="$janus__nosip_8c.html" title="Janus NoSIP plugin. " alt="" coords="1618,379,1729,405"/>
+<area shape="rect" id="node24" href="$janus__recordplay_8c.html" title="Janus Record&amp;Play plugin. " alt="" coords="1008,379,1150,405"/>
+<area shape="rect" id="node25" href="$janus__sip_8c.html" title="Janus SIP plugin. " alt="" coords="1174,379,1269,405"/>
+<area shape="rect" id="node26" href="$janus__streaming_8c.html" title="Janus Streaming plugin. " alt="" coords="1754,379,1895,405"/>
+<area shape="rect" id="node27" href="$janus__textroom_8c.html" title="Janus TextRoom plugin. " alt="" coords="2454,379,2589,405"/>
+<area shape="rect" id="node28" href="$janus__videocall_8c.html" title="Janus VideoCall plugin. " alt="" coords="849,379,984,405"/>
+<area shape="rect" id="node29" href="$janus__videoroom_8c.html" title="Janus VideoRoom plugin. " alt="" coords="1293,379,1438,405"/>
+<area shape="rect" id="node30" href="$janus__voicemail_8c.html" title="Janus VoiceMail plugin. " alt="" coords="2240,379,2379,405"/>
+<area shape="rect" id="node31" href="$plugin_8c.html" title="plugin.c" alt="" coords="3537,379,3610,405"/>
+<area shape="rect" id="node34" href="$sdp-utils_8c.html" title="SDP utilities. " alt="" coords="3073,379,3162,405"/>
+<area shape="rect" id="node37" href="$janus__http_8c.html" title="Janus RESTs transport plugin. " alt="" coords="3811,379,3912,405"/>
+<area shape="rect" id="node38" href="$janus__mqtt_8c.html" title="Janus MQTT transport plugin. " alt="" coords="4116,379,4223,405"/>
+<area shape="rect" id="node39" href="$janus__nanomsg_8c.html" title="Janus Nanomsg transport plugin. " alt="" coords="2798,379,2933,405"/>
+<area shape="rect" id="node40" href="$janus__pfunix_8c.html" title="Janus Unix Sockets transport plugin. " alt="" coords="3238,379,3354,405"/>
+<area shape="rect" id="node41" href="$janus__rabbitmq_8c.html" title="Janus RabbitMQ transport plugin. " alt="" coords="3378,379,3513,405"/>
+<area shape="rect" id="node42" href="$janus__websockets_8c.html" title="Janus WebSockets transport plugin. " alt="" coords="3635,379,3787,405"/>
+<area shape="rect" id="node45" href="$record_8c.html" title="record.c" alt="" coords="179,379,254,405"/>
+<area shape="rect" id="node47" href="$text2pcap_8c.html" title="Dumping of RTP/RTCP packets to text2pcap or pcap format. " alt="" coords="3230,304,3328,331"/>
+<area shape="rect" id="node48" href="$utils_8c.html" title="Utilities and helpers. " alt="" coords="1512,229,1574,256"/>
+<area shape="rect" id="node49" href="$janus__gelfevh_8c.html" title="Janus GelfEventHandler plugin. " alt="" coords="3449,229,3573,256"/>
+<area shape="rect" id="node50" href="$janus__nanomsgevh_8c.html" title="Janus NanomsgEventHandler plugin. " alt="" coords="3597,229,3756,256"/>
+<area shape="rect" id="node51" href="$janus__rabbitmqevh_8c.html" title="Janus RabbitMQEventHandler plugin. " alt="" coords="3780,229,3938,256"/>
+<area shape="rect" id="node52" href="$janus__sampleevh_8c.html" title="Janus SampleEventHandler plugin. " alt="" coords="3963,229,4110,256"/>
+<area shape="rect" id="node53" href="$janus__wsevh_8c.html" title="Janus WebSockets EventHandler plugin. " alt="" coords="4134,229,4251,256"/>
+<area shape="rect" id="node54" href="$janus__jsonlog_8c.html" title="Janus JSON logger plugin. " alt="" coords="1598,229,1720,256"/>
+<area shape="rect" id="node55" href="$config_8c.html" title="Configuration files parsing. " alt="" coords="4459,155,4531,181"/>
+<area shape="rect" id="node56" href="$events_8h.html" title="Event handler notifications (headers) " alt="" coords="4153,155,4232,181"/>
+<area shape="rect" id="node58" href="$janus__mqttevh_8c.html" title="Janus MQTTEventHandler plugin. " alt="" coords="4579,229,4710,256"/>
+<area shape="rect" id="node59" href="$janus-cfgconv_8c.html" title="Simple utility to convert Janus .cfg files to .jcfg and viceversa. " alt="" coords="4656,155,4779,181"/>
+<area shape="rect" id="node60" href="$rtcp_8c.html" title="RTCP processing. " alt="" coords="4803,155,4862,181"/>
+<area shape="rect" id="node61" href="$rtp_8c.html" title="RTP processing. " alt="" coords="4886,155,4936,181"/>
+<area shape="rect" id="node62" href="$janus-pp-rec_8c.html" title="Simple utility to post&#45;process .mjr Recordings saved by Janus. " alt="" coords="4960,155,5075,181"/>
+<area shape="rect" id="node63" href="$mjr2pcap_8c.html" title="Helper tool to convert Janus .mjr recordings to .pcap files. " alt="" coords="5100,155,5194,181"/>
+<area shape="rect" id="node64" href="$pcap2mjr_8c.html" title="Helper tool to convert .pcap files to Janus .mjr recordings. " alt="" coords="5219,155,5312,181"/>
+<area shape="rect" id="node65" href="$pp-av1_8c.html" title="Post&#45;processing to generate .mp4 files out of AV1 frames. " alt="" coords="5337,155,5416,181"/>
+<area shape="rect" id="node66" href="$pp-binary_8c.html" title="Post&#45;processing to generate binary files out of binary data recordings. " alt="" coords="5440,155,5534,181"/>
+<area shape="rect" id="node67" href="$pp-g711_8c.html" title="Post&#45;processing to generate .wav files (headers) " alt="" coords="5558,155,5645,181"/>
+<area shape="rect" id="node68" href="$pp-g722_8c.html" title="Post&#45;processing to generate .wav files out of G.722 (headers) " alt="" coords="5669,155,5756,181"/>
+<area shape="rect" id="node69" href="$pp-h264_8c.html" title="Post&#45;processing to generate .mp4 files out of H.264 frames. " alt="" coords="5780,155,5866,181"/>
+<area shape="rect" id="node70" href="$pp-h265_8c.html" title="Post&#45;processing to generate .mp4 files out of H.265 frames. " alt="" coords="5890,155,5977,181"/>
+<area shape="rect" id="node71" href="$pp-opus_8c.html" title="Post&#45;processing to generate .opus files. " alt="" coords="6002,155,6087,181"/>
+<area shape="rect" id="node72" href="$pp-srt_8c.html" title="Post&#45;processing to generate .srt files. " alt="" coords="6112,155,6182,181"/>
+<area shape="rect" id="node73" href="$pp-webm_8c.html" title="Post&#45;processing to generate .webm files. " alt="" coords="6206,155,6301,181"/>
+<area shape="rect" id="node5" href="$refcount_8h.html" title="Reference counter mechanism. " alt="" coords="2504,229,2592,256"/>
+<area shape="rect" id="node11" href="$janus_8h.html" title="Janus core (headers) " alt="" coords="2468,528,2538,555"/>
+<area shape="rect" id="node44" href="$record_8h.html" title="Audio/Video recorder. " alt="" coords="1160,304,1235,331"/>
+<area shape="rect" id="node46" href="$text2pcap_8h.html" title="Dumping of RTP/RTCP packets to text2pcap or pcap format (headers) " alt="" coords="3022,229,3120,256"/>
+<area shape="rect" id="node6" href="$plugin_8h.html" title="Plugin&#45;Core communication (implementation) " alt="" coords="1779,304,1854,331"/>
+<area shape="rect" id="node9" href="$ice_8h.html" title="Janus handles and ICE/STUN/TURN processing (headers) " alt="" coords="2228,453,2282,480"/>
+<area shape="rect" id="node32" href="$sdp-utils_8h.html" title="SDP utilities (headers) " alt="" coords="1360,304,1451,331"/>
+<area shape="rect" id="node35" href="$dtls_8h.html" title="DTLS/SRTP processing (headers) " alt="" coords="2715,379,2774,405"/>
+<area shape="rect" id="node36" href="$transport_8h.html" title="Modular Janus API transports. " alt="" coords="2808,304,2902,331"/>
+<area shape="rect" id="node7" href="$auth_8h.html" title="Requests authentication (headers) " alt="" coords="2052,379,2114,405"/>
+<area shape="rect" id="node17" href="$janus__duktape_8c.html" title="Janus JavaScript plugin (via Duktape) " alt="" coords="179,453,307,480"/>
+<area shape="rect" id="node18" href="$janus__duktape__extra_8c.html" title="Janus Duktape plugin extra hooks. " alt="" coords="332,453,501,480"/>
+<area shape="rect" id="node21" href="$janus__lua_8c.html" title="Janus Lua plugin. " alt="" coords="1410,453,1505,480"/>
+<area shape="rect" id="node22" href="$janus__lua__extra_8c.html" title="Janus Lua plugin extra hooks. " alt="" coords="1530,453,1666,480"/>
+<area shape="rect" id="node33" href="$sdp_8h.html" title="SDP processing (headers) " alt="" coords="1970,379,2028,405"/>
+<area shape="rect" id="node43" href="$transport_8c.html" title="transport.c" alt="" coords="2957,379,3049,405"/>
+<area shape="rect" id="node57" href="$events_8c.html" title="Event handler notifications. " alt="" coords="4376,229,4454,256"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="janus_videoroom_publisher" name="janus_videoroom_publisher">
+<area shape="rect" id="node2" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="47,5,166,32"/>
+<area shape="rect" id="node3" href="$structjanus__videoroom__session.html" title="janus_videoroom_session" alt="" coords="34,196,224,223"/>
+<area shape="rect" id="node4" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="90,95,250,121"/>
+<area shape="rect" id="node5" href="$structjanus__videoroom.html" title="janus_videoroom" alt="" coords="216,145,351,172"/>
+</map>

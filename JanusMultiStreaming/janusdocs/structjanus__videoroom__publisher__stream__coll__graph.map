@@ -1,0 +1,10 @@
+<map id="janus_videoroom_publisher_stream" name="janus_videoroom_publisher_stream">
+<area shape="rect" id="node2" href="$structjanus__videoroom__publisher.html" title="janus_videoroom_publisher" alt="" coords="895,145,1096,172"/>
+<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="5,137,124,164"/>
+<area shape="rect" id="node4" href="$structjanus__videoroom__session.html" title="janus_videoroom_session" alt="" coords="537,145,728,172"/>
+<area shape="rect" id="node5" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="195,181,355,208"/>
+<area shape="rect" id="node6" href="$structjanus__videoroom.html" title="janus_videoroom" alt="" coords="379,223,513,249"/>
+<area shape="rect" id="node8" href="$structjanus__recorder.html" title="Structure that represents a recorder. " alt="" coords="752,263,871,289"/>
+<area shape="rect" id="node7" href="$structjanus__rtp__simulcasting__context.html" title="Helper struct for processing and tracking simulcast streams. " alt="" coords="909,259,1081,301"/>
+<area shape="rect" id="node9" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="920,325,1071,366"/>
+</map>

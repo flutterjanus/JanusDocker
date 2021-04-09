@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['o_5faddr',['o_addr',['../structjanus__sdp.html#adb0095c4b2b4ac04140ab43aa62d7a67',1,'janus_sdp']]],
+  ['o_5fipv4',['o_ipv4',['../structjanus__sdp.html#a364ea4c0f70520df9f1148230b5309a0',1,'janus_sdp']]],
+  ['o_5fname',['o_name',['../structjanus__sdp.html#a42e71e9cdd789ce1f1344cc3f674ed0c',1,'janus_sdp']]],
+  ['o_5fsessid',['o_sessid',['../structjanus__sdp.html#a378d8aa3fb00f44b9836200acc21d92f',1,'janus_sdp']]],
+  ['o_5fversion',['o_version',['../structjanus__sdp.html#aff24a05a551c78fb8fbfd96f00a6f555',1,'janus_sdp']]],
+  ['offer',['offer',['../structjanus__recordplay__recording.html#aa1273e8733113e7bc54d03293df3ea11',1,'janus_recordplay_recording']]],
+  ['offset',['offset',['../structjanus__recordplay__frame__packet.html#a521b557a2681b633e0373ecadd4a7793',1,'janus_recordplay_frame_packet::offset()'],['../structjanus__pp__frame__packet.html#a422d843eade5cc6546f013422d38f584',1,'janus_pp_frame_packet::offset()']]],
+  ['ogg_5ffile',['ogg_file',['../pp-opus_8c.html#a35948ec0894a7d9b660b83a192fa8392',1,'pp-opus.c']]],
+  ['on_5fhold',['on_hold',['../structjanus__sip__media.html#a69cec0bc48976da7812d9c02dde8611f',1,'janus_sip_media']]],
+  ['opaque_5fid',['opaque_id',['../structjanus__ice__handle.html#ac3121d927adb3921c3916fd32eda0441',1,'janus_ice_handle']]],
+  ['opus',['opus',['../structjanus__streaming__file__source.html#a4257594d06541a499d1408bb66510085',1,'janus_streaming_file_source']]],
+  ['opus_5fcomplexity',['opus_complexity',['../structjanus__audiobridge__participant.html#a2fac6f938e0c817069ab0d01b5907938',1,'janus_audiobridge_participant']]],
+  ['opus_5fpt',['opus_pt',['../structjanus__audiobridge__participant.html#a9881f1e50be93ba1f5512f10ac17867a',1,'janus_audiobridge_participant']]],
+  ['opusfec',['opusfec',['../structjanus__videoroom__publisher__stream.html#a1a1d1a7449befac9cd67838c7e7ead4a',1,'janus_videoroom_publisher_stream::opusfec()'],['../structjanus__videoroom__subscriber__stream.html#a24f26a4b6c8266ef3d3c6e61e810018a',1,'janus_videoroom_subscriber_stream::opusfec()']]],
+  ['orig_5flen',['orig_len',['../structjanus__text2pcap__packet__header.html#a49f49af811c923b21467063ebca4ab31',1,'janus_text2pcap_packet_header::orig_len()'],['../structmjr2pcap__packet__header.html#ab94f33340def5d59e27f70759d1e30ee',1,'mjr2pcap_packet_header::orig_len()']]],
+  ['out_5flink_5fquality',['out_link_quality',['../structrtcp__context.html#ac3c2dbef30a9959c935fa98b468ccb4a',1,'rtcp_context']]],
+  ['out_5fmedia_5flink_5fquality',['out_media_link_quality',['../structrtcp__context.html#a96b10c5c8b37ab5a4420b39eb1de6fc6',1,'rtcp_context']]],
+  ['out_5fstats',['out_stats',['../structjanus__ice__peerconnection__medium.html#abb927c531a24fc3ff978a6ebcddd933a',1,'janus_ice_peerconnection_medium']]],
+  ['out_5fthread',['out_thread',['../structjanus__rabbitmq__client.html#aae7bdc0f82d27074a065b8f7a87b836c',1,'janus_rabbitmq_client']]],
+  ['outbound_5fproxy',['outbound_proxy',['../structjanus__sip__account.html#a941f9b1680eb89a676e1ee930708e4e9',1,'janus_sip_account']]],
+  ['outbuf',['outbuf',['../structjanus__audiobridge__participant.html#a111169a760b815280332c3f5b39f961f',1,'janus_audiobridge_participant']]],
+  ['own_5fsubscriptions_5fmutex',['own_subscriptions_mutex',['../structjanus__videoroom__publisher.html#ac281c874a58d8dd3dac02653fa34815b',1,'janus_videoroom_publisher']]]
+];

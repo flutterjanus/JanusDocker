@@ -1,0 +1,7 @@
+<map id="version.h" name="version.h">
+<area shape="rect" id="node2" href="$janus-cfgconv_8c.html" title="Simple utility to convert Janus .cfg files to .jcfg and viceversa. " alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node3" href="$janus_8c.html" title="Janus core. " alt="" coords="153,80,221,107"/>
+<area shape="rect" id="node4" href="$version_8c.html" title="version.c" alt="" coords="245,80,326,107"/>
+<area shape="rect" id="node5" href="$janus-pp-rec_8c.html" title="Simple utility to post&#45;process .mjr Recordings saved by Janus. " alt="" coords="351,80,465,107"/>
+<area shape="rect" id="node6" href="$pp-opus_8c.html" title="Post&#45;processing to generate .opus files. " alt="" coords="489,80,575,107"/>
+</map>

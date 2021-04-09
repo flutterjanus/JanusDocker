@@ -1,0 +1,6 @@
+<map id="plugin.h" name="plugin.h">
+<area shape="rect" id="node10" href="$refcount_8h.html" title="Reference counter mechanism. " alt="" coords="394,80,482,107"/>
+<area shape="rect" id="node11" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="400,155,476,181"/>
+<area shape="rect" id="node14" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="297,229,371,256"/>
+<area shape="rect" id="node16" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="297,304,352,331"/>
+</map>
