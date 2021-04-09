@@ -1,8 +1,0 @@
-<map id="janus_nosip_session" name="janus_nosip_session">
-<area shape="rect" id="node2" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="47,124,207,151"/>
-<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="118,13,237,39"/>
-<area shape="rect" id="node4" href="$structjanus__sdp.html" title="Janus SDP internal object representation. " alt="" coords="232,124,318,151"/>
-<area shape="rect" id="node5" href="$structjanus__recorder.html" title="Structure that represents a recorder. " alt="" coords="342,124,461,151"/>
-<area shape="rect" id="node6" href="$structjanus__nosip__media.html" title="janus_nosip_media" alt="" coords="486,124,632,151"/>
-<area shape="rect" id="node7" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="484,5,634,47"/>
-</map>

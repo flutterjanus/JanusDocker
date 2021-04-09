@@ -1,4 +1,0 @@
-<map id="janus_streaming_rtp_relay_packet" name="janus_streaming_rtp_relay_packet">
-<area shape="rect" id="node2" href="$structjanus__vp9__svc__info.html" title="VP9 SVC info, as parsed from a payload descriptor. " alt="" coords="5,5,155,32"/>
-<area shape="rect" id="node3" href="$structrtp__header.html" title="RTP Header (http://tools.ietf.org/html/rfc3550#section&#45;5.1) " alt="" coords="179,5,271,32"/>
-</map>

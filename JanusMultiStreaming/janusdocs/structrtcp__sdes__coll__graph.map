@@ -1,5 +1,0 @@
-<map id="rtcp_sdes" name="rtcp_sdes">
-<area shape="rect" id="node2" href="$structrtcp__sdes__item.html" title="rtcp_sdes_item" alt="" coords="5,5,127,32"/>
-<area shape="rect" id="node3" href="$structrtcp__header.html" title="RTCP Header (http://tools.ietf.org/html/rfc3550#section&#45;6.1) " alt="" coords="151,5,250,32"/>
-<area shape="rect" id="node4" href="$structrtcp__sdes__chunk.html" title="RTCP SDES (http://tools.ietf.org/html/rfc3550#section&#45;6.5) " alt="" coords="274,5,405,32"/>
-</map>

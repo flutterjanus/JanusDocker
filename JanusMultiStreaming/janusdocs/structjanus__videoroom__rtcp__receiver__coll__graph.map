@@ -1,7 +1,0 @@
-<map id="janus_videoroom_rtcp_receiver" name="janus_videoroom_rtcp_receiver">
-<area shape="rect" id="node2" href="$structjanus__videoroom__rtp__forwarder.html" title="janus_videoroom_rtp\l_forwarder" alt="" coords="311,90,469,131"/>
-<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="32,5,151,32"/>
-<area shape="rect" id="node4" href="$structjanus__rtp__simulcasting__context.html" title="Helper struct for processing and tracking simulcast streams. " alt="" coords="5,57,177,98"/>
-<area shape="rect" id="node5" href="$structjanus__videoroom__srtp__context.html" title="janus_videoroom_srtp\l_context" alt="" coords="8,122,175,163"/>
-<area shape="rect" id="node6" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="16,187,167,229"/>
-</map>

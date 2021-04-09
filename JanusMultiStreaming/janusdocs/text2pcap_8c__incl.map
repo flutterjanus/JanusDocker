@@ -1,7 +1,0 @@
-<map id="text2pcap.c" name="text2pcap.c">
-<area shape="rect" id="node6" href="$text2pcap_8h.html" title="Dumping of RTP/RTCP packets to text2pcap or pcap format (headers) " alt="" coords="216,80,315,107"/>
-<area shape="rect" id="node14" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="323,229,397,256"/>
-<area shape="rect" id="node17" href="$utils_8h.html" title="TURN REST API client. " alt="" coords="503,80,566,107"/>
-<area shape="rect" id="node12" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="130,155,206,181"/>
-<area shape="rect" id="node16" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="229,304,283,331"/>
-</map>

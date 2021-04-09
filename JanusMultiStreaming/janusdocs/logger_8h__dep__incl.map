@@ -1,9 +1,0 @@
-<map id="logger.h" name="logger.h">
-<area shape="rect" id="node2" href="$janus_8h.html" title="Janus core (headers) " alt="" coords="119,80,189,107"/>
-<area shape="rect" id="node7" href="$log_8c.html" title="Buffered logging. " alt="" coords="213,80,266,107"/>
-<area shape="rect" id="node8" href="$janus__jsonlog_8c.html" title="Janus JSON logger plugin. " alt="" coords="290,80,413,107"/>
-<area shape="rect" id="node3" href="$dtls_8c.html" title="DTLS/SRTP processing. " alt="" coords="5,155,63,181"/>
-<area shape="rect" id="node4" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing. " alt="" coords="87,155,139,181"/>
-<area shape="rect" id="node5" href="$janus_8c.html" title="Janus core. " alt="" coords="163,155,231,181"/>
-<area shape="rect" id="node6" href="$sdp_8c.html" title="SDP processing. " alt="" coords="255,155,311,181"/>
-</map>

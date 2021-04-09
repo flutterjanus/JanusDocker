@@ -1,9 +1,0 @@
-<map id="janus_ice_peerconnection" name="janus_ice_peerconnection">
-<area shape="rect" id="node6" href="$structjanus__ice__handle.html" title="Janus ICE handle. " alt="" coords="169,288,304,315"/>
-<area shape="rect" id="node2" href="$structjanus__dtls__srtp.html" title="Janus DTLS&#45;SRTP handle. " alt="" coords="148,95,268,121"/>
-<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="90,5,209,32"/>
-<area shape="rect" id="node8" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="47,147,207,173"/>
-<area shape="rect" id="node4" href="$structjanus__ice__stats.html" title="Janus media statistics container. " alt="" coords="363,95,486,121"/>
-<area shape="rect" id="node5" href="$structjanus__ice__stats__info.html" title="Janus media statistics. " alt="" coords="347,5,502,32"/>
-<area shape="rect" id="node7" href="$structjanus__text2pcap.html" title="Instance of a text2pcap recorder. " alt="" coords="436,199,565,225"/>
-</map>

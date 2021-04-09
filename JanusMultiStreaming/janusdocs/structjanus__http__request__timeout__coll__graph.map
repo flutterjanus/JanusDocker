@@ -1,5 +1,0 @@
-<map id="janus_http_request_timeout" name="janus_http_request_timeout">
-<area shape="rect" id="node2" href="$structjanus__http__session.html" title="janus_http_session" alt="" coords="5,95,152,121"/>
-<area shape="rect" id="node3" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="113,5,231,32"/>
-<area shape="rect" id="node4" href="$structjanus__transport__session.html" title="Transport&#45;Gateway session mapping. " alt="" coords="176,95,355,121"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="rtcp.c" name="rtcp.c">
-<area shape="rect" id="node5" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="307,80,382,107"/>
-<area shape="rect" id="node10" href="$rtp_8h.html" title="RTP processing (headers) " alt="" coords="563,80,615,107"/>
-<area shape="rect" id="node16" href="$rtcp_8h.html" title="RTCP processing (headers) " alt="" coords="450,80,509,107"/>
-<area shape="rect" id="node17" href="$utils_8h.html" title="TURN REST API client. " alt="" coords="865,80,928,107"/>
-<area shape="rect" id="node8" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="80,155,135,181"/>
-</map>

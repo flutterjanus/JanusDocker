@@ -1,5 +1,0 @@
-<map id="Plugins" name="Plugins">
-<area shape="rect" id="node1" href="$group__luapapi.html" title="Lua plugin (aka, how to write your own plugin in Lua) " alt="" coords="245,14,360,41"/>
-<area shape="rect" id="node2" href="$group__jspapi.html" title="Duktape plugin (aka, how to write your own plugin in JavaScript) " alt="" coords="229,75,376,102"/>
-<area shape="rect" id="node3" href="$group__pluginapi.html" title="Plugin API (aka, how to write your own plugin) " alt="" coords="259,145,346,171"/>
-</map>

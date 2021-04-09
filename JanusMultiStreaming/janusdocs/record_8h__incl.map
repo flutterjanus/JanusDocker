@@ -1,6 +1,0 @@
-<map id="record.h" name="record.h">
-<area shape="rect" id="node6" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="365,155,441,181"/>
-<area shape="rect" id="node13" href="$refcount_8h.html" title="Reference counter mechanism. " alt="" coords="409,80,497,107"/>
-<area shape="rect" id="node9" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="262,229,337,256"/>
-<area shape="rect" id="node12" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="263,304,317,331"/>
-</map>

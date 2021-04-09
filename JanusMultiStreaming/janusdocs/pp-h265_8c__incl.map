@@ -1,6 +1,0 @@
-<map id="pp&#45;h265.c" name="pp&#45;h265.c">
-<area shape="rect" id="node9" href="$pp-h265_8h.html" title="Post&#45;processing to generate .mp4 files out of H.265 frames (headers) " alt="" coords="196,80,283,107"/>
-<area shape="rect" id="node13" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="307,80,393,107"/>
-<area shape="rect" id="node11" href="$pp-rtp_8h.html" title="Helper structures to handle RTP post&#45;processing (headers) " alt="" coords="173,155,247,181"/>
-<area shape="rect" id="node15" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="323,155,377,181"/>
-</map>

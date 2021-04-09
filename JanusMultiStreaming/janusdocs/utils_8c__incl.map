@@ -1,6 +1,0 @@
-<map id="utils.c" name="utils.c">
-<area shape="rect" id="node13" href="$utils_8h.html" title="TURN REST API client. " alt="" coords="305,80,368,107"/>
-<area shape="rect" id="node17" href="$debug_8h.html" title="Logging and Debugging. " alt="" coords="1259,155,1334,181"/>
-<area shape="rect" id="node21" href="$mutex_8h.html" title="Semaphors, Mutexes and Conditions. " alt="" coords="1163,80,1239,107"/>
-<area shape="rect" id="node19" href="$log_8h.html" title="Buffered logging (headers) " alt="" coords="1301,229,1356,256"/>
-</map>

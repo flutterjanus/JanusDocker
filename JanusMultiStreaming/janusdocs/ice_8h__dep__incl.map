@@ -1,8 +1,0 @@
-<map id="ice.h" name="ice.h">
-<area shape="rect" id="node2" href="$dtls-bio_8c.html" title="dtls&#45;bio.c" alt="" coords="5,80,88,107"/>
-<area shape="rect" id="node3" href="$janus_8h.html" title="Janus core (headers) " alt="" coords="163,80,232,107"/>
-<area shape="rect" id="node5" href="$ice_8c.html" title="Janus handles and ICE/STUN/TURN processing. " alt="" coords="49,155,101,181"/>
-<area shape="rect" id="node7" href="$sdp_8c.html" title="SDP processing. " alt="" coords="299,155,355,181"/>
-<area shape="rect" id="node4" href="$dtls_8c.html" title="DTLS/SRTP processing. " alt="" coords="125,155,182,181"/>
-<area shape="rect" id="node6" href="$janus_8c.html" title="Janus core. " alt="" coords="206,155,274,181"/>
-</map>

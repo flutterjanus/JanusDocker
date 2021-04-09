@@ -1,8 +1,0 @@
-<map id="janus_audiobridge_participant" name="janus_audiobridge_participant">
-<area shape="rect" id="node2" href="$structjanus__refcount.html" title="janus_refcount" alt="" coords="5,85,124,112"/>
-<area shape="rect" id="node3" href="$structjanus__audiobridge__session.html" title="janus_audiobridge_session" alt="" coords="585,72,783,99"/>
-<area shape="rect" id="node4" href="$structjanus__plugin__session.html" title="Plugin&#45;Gateway session mapping. " alt="" coords="195,85,355,112"/>
-<area shape="rect" id="node5" href="$structjanus__recorder.html" title="Structure that represents a recorder. " alt="" coords="411,131,529,157"/>
-<area shape="rect" id="node6" href="$structjanus__audiobridge__room.html" title="janus_audiobridge_room" alt="" coords="379,187,561,213"/>
-<area shape="rect" id="node7" href="$structjanus__rtp__switching__context.html" title="RTP context, in order to make sure SSRC changes result in coherent seq/ts increases. " alt="" coords="609,249,759,290"/>
-</map>
