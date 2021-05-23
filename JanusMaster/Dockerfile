@@ -91,6 +91,8 @@ RUN cd ~ \
     && make CFLAGS='-std=c99' \
     && make install \
     && make configs
+
+RUN echo "load"
 # 
 # RUN cp -rp ~/janus-gateway/certs /opt/janus/share/janus
 # 

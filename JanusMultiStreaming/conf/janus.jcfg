@@ -245,10 +245,17 @@ media: {
 # be used for gathering candidates, and enable or disable the
 # internal libnice debugging, if needed.
 nat: {
-	stun_server = "stun.voip.eutelia.it"
-	stun_port = 3478
+
+        stun_server = "unified-janus.onemandev.tech"
+        stun_port = 3478
+        stun_user = "onemandev"
+        stun_pwd = "onemandev"
+  #      nice_debug = false
+
+#	stun_server = "stun1.l.google.com"
+#	stun_port = 19302
 	nice_debug = false
-	#full_trickle = true
+	full_trickle = true
 	#ice_lite = true
 	#ice_tcp = true
 
@@ -282,11 +289,11 @@ nat: {
 	# statically configured TURN server, and thus provide the address of the
 	# TURN server, the transport (udp/tcp/tls) to use, and a set of valid
 	# credentials to authenticate...
-	#turn_server = "myturnserver.com"
-	#turn_port = 3478
-	#turn_type = "udp"
-	#turn_user = "myuser"
-	#turn_pwd = "mypassword"
+	turn_server = "unified-janus.onemandev.tech"
+	turn_port = 3478
+	turn_type = "udp"
+	turn_user = "onemandev"
+	turn_pwd = "onemandev"
 
 	# ... or you can make use of the TURN REST API to get info on one or more
 	# TURN services dynamically. This makes use of the proposed standard of

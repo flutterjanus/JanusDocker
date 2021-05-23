@@ -58,9 +58,9 @@ general: {
 
 room-1234: {
 	description = "Demo Room"
-	secret = "adminpwd"
-	publishers = 6
-	bitrate = 128000
+	#secret = "adminpwd"
+	publishers = 200
+	bitrate = 1024000
 	fir_freq = 10
 	#audiocodec = "opus"
 	#videocodec = "vp8"
