@@ -1,0 +1,61 @@
+ map $http_upgrade $connection_upgrade {
+        default upgrade;
+        '' close;
+    }
+ 
+    upstream websocket {
+        server 127.0.0.1:8081;
+    }
+
+    upstream rest{
+
+    	server 127.0.0.1:8088;
+    }
+
+
+server {
+     server_name unified-janus.onemandev.tech;
+     root /var/www/unified-janus.onemandev.tech;
+     index index.html index.htm;
+     location / {
+          try_files $uri $uri/ =404;
+     }
+
+      location /websocket {
+            proxy_pass http://websocket;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection $connection_upgrade;
+            proxy_set_header Host $host;
+        }
+
+
+        location /rest/ {
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_pass http://rest/janus/;
+        }
+     
+
+
+    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/unified-janus.onemandev.tech/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/unified-janus.onemandev.tech/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+server {
+    if ($host = unified-janus.onemandev.tech) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+     listen 80;
+     listen [::]:80;
+     server_name unified-janus.onemandev.tech;
+    return 404; # managed by Certbot
+
+
+}
