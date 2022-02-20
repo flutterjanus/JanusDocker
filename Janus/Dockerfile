@@ -8,8 +8,6 @@ RUN echo "reload gd"
 RUN cd ~ \
     && git clone https://github.com/meetecho/janus-gateway.git \
     && cd janus-gateway \
-    && git checkout multistream \
-    && git pull \
     && sh autogen.sh \
     && ./configure --prefix=/opt/janus --enable-docs \
     && make CFLAGS='-std=c99' \

@@ -1,19 +1,23 @@
 # Janus Docker
-Get all `Dockerfile` here for building janusgateway image
+
+Setup your own janus server locally or on production environment hassle free. this repo contains both `Dockerfile` and `docker-compose.yaml` for building as well as deployment of janus server.
 
 # Recommended way
-Use JanusMultistreamingCoreDeps folder to build or deploy janus gateway using docker-compose
+
+Use `Janus` folder to build or deploy janus gateway using docker-compose
 it uses pre-build core image which comes with pre-installed janus gateway dependencies cuts down lot of compile time since nobody's got time to compile and wait for hours
-you can find januscoredeps docker image [here](https://hub.docker.com/repository/docker/shivanshtalwar0/januscoredeps/tags)
-or can build your own if you got lot of time in this world. by using JanusCoreDeps folder it outputs docker image containing just janus peer dependencies
-by default this repo assumes you love and support unified plan so only includes example of multistream (a.k.a unified plan) branch you can replicate for master branch if you like.
+you can find `JanusCoreDeps` docker image [here](https://hub.docker.com/repository/docker/shivanshtalwar0/januscoredeps/tags)
+or can build your own if you got lot of time in this world. by using [JanusCoreDeps](./JanusCoreDeps/) folder it outputs docker image containing just janus peer dependencies
 
 
-# Build & Run using dockerfile
-	cd JanusMultistreamingCoreDeps
-	docker build -t dockerusername/imagename:tag .
-	docker run -d dockerusername/imagename:tag
-		
-# docker compose
-        cd JanusMultistreamingCoreDeps
-	docker-compose up -d # note option -d to start it in detached mode
+# QuickStart
+
+    cd Janus
+    docker-compose up -d # note option -d to start it in detached mode
+
+# Build
+
+    cd Janus
+    docker build -t dockerusername/janusgateway:latest .
+    docker run -d dockerusername/janusgateway:latest
+  

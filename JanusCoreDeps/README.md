@@ -1,0 +1,3 @@
+# Janus Core Deps
+
+This directory only includes `Dockerfile` which is used to build dependencies image for janus server to cutdown deployment/image build time. although this project ensures dependency image is always updated and janus server compile compatible but in case if it isn't then you can always build your own dependency image if you feel `JanusCoreDeps` image on dockerhub is outdated in terms of dependencies.
