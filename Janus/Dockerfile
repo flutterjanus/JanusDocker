@@ -1,4 +1,4 @@
-FROM shivanshtalwar0/januscoredeps
+FROM shivanshtalwar0/januscoredeps:x86_64
 
 LABEL maintainer="shivansh talwar <shivanshtalwar0@gmail.com>"
 LABEL description="Provides an image with Janus Gateway"
