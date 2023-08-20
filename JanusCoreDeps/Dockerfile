@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 LABEL maintainer="shivansh talwar <shivanshtalwar0@gmail.com>"
 LABEL description="Provides an image with Janus Gateway dependencies"
@@ -61,9 +61,10 @@ RUN cd ~ \
 RUN cd ~ \
     && git clone https://github.com/warmcat/libwebsockets.git \
     && cd libwebsockets \
+    && git checkout v4.3-stable \
     && mkdir build \
     && cd build \
-    && cmake -DLWS_MAX_SMP=1 -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_C_FLAGS="-fpic" .. \
+    && cmake -DLWS_MAX_SMP=1 -DLWS_WITHOUT_EXTENSIONS=0 -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_C_FLAGS="-fpic" .. \
     && make \
     && make install
 RUN cd ~ \ 
@@ -80,9 +81,9 @@ RUN cd ~ \
 	&& cmake -DCMAKE_INSTALL_PREFIX=/usr .. \
 	&& make && make install
 RUN apt install curl gcc g++ make -y    
-RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 RUN apt install -y nodejs
-RUN cd /tmp
+RUN cd /tmp \
     && git clone https://github.com/meetecho/janus-gateway.git \
     && cd janus-gateway \
     && sh autogen.sh \
