@@ -61,7 +61,6 @@ RUN cd ~ \
 RUN cd ~ \
     && git clone https://github.com/warmcat/libwebsockets.git \
     && cd libwebsockets \
-    && git checkout v4.3-stable \
     && mkdir build \
     && cd build \
     && cmake -DLWS_MAX_SMP=1 -DLWS_WITHOUT_EXTENSIONS=0 -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_C_FLAGS="-fpic" .. \
