@@ -27,7 +27,7 @@
 # audiomcast = multicast group port for receiving audio frames, if any
 # audioiface = network interface or IP address to bind to, if any (binds to all otherwise)
 # audiopt = <audio RTP payload type> (e.g., 111)
-# audiortpmap = RTP map of the audio codec (e.g., opus/48000/2)
+# audiocodec = name of the audio codec (e.g., opus)
 # audioskew = true|false (whether the plugin should perform skew
 #		analisys and compensation on incoming audio RTP stream, EXPERIMENTAL)
 # videoport = local port for receiving video frames
@@ -35,7 +35,7 @@
 # videomcast = multicast group port for receiving video frames, if any
 # videoiface = network interface or IP address to bind to, if any (binds to all otherwise)
 # videopt = <video RTP payload type> (e.g., 100)
-# videortpmap = RTP map of the video codec (e.g., VP8/90000)
+# videocodec = name of the video codec (e.g., vp8)
 # videobufferkf = true|false (whether the plugin should store the latest
 #		keyframe and send it immediately for new viewers, EXPERIMENTAL)
 # videosimulcast = true|false (do|don't enable video simulcasting)
@@ -44,6 +44,9 @@
 # videoskew = true|false (whether the plugin should perform skew
 #		analisys and compensation on incoming video RTP stream, EXPERIMENTAL)
 # videosvc = true|false (whether the video will have SVC support; works only for VP9-SVC, default=false)
+# h264sps = if using H.264 as a video codec, value of the sprop-parameter-sets
+#		that would normally be sent via SDP, but that we'll use to instead
+#		manually ingest SPS and PPS packets via RTP for streams that miss it
 # collision = in case of collision (more than one SSRC hitting the same port), the plugin
 #		will discard incoming RTP packets with a new SSRC unless this many milliseconds
 #		passed, which would then change the current SSRC (0=disabled)
@@ -74,15 +77,31 @@
 # DO NOT SET THIS PROPERTY IF YOU DON'T KNOW WHAT YOU'RE DOING!
 # e2ee = true
 #
-# The following options are only valid for the 'rstp' type:
+# To allow mountpoints to negotiate the playout-delay RTP extension,
+# you can set the 'playoutdelay_ext' property to true: this way, any
+# subscriber can customize the playout delay of incoming video streams,
+# assuming the browser supports the RTP extension in the first place.
+# playoutdelay_ext = true
+#
+# The following options are only valid for the 'rtsp' type:
 # url = RTSP stream URL (only for restreaming RTSP)
 # rtsp_user = RTSP authorization username (only if type=rtsp)
 # rtsp_pwd = RTSP authorization password (only if type=rtsp)
-# rtspiface = network interface or IP address to bind to, if any (binds to all otherwise), when receiving RTSP streams
+# rtsp_quirk = Some RTSP servers offer the stream using only the path, instead of the fully qualified URL.
+#		If set true, this boolean informs Janus that we should try a path-only DESCRIBE request if the initial request returns 404.
 # rtsp_failcheck = whether an error should be returned if connecting to the RTSP server fails (default=true)
+# rtspiface = network interface or IP address to bind to, if any (binds to all otherwise), when receiving RTSP streams
+# rtsp_reconnect_delay = after n seconds passed and no media assumed, the RTSP server has gone and schedule a reconnect (default=5s)
+# rtsp_session_timeout = by default the streaming plugin will check the RTSP connection with an OPTIONS query,
+# 		the value of the timeout comes from the RTSP session initializer and by default
+# 		this session timeout is the half of this value In some cases this value can be too high (for example more than one minute)
+# 		because of the media server. In that case this plugin will calculate the timeout with this
+# 		formula: timeout = min(session_timeout, rtsp_session_timeout / 2). (default=0s)
+# rtsp_timeout = communication timeout (CURLOPT_TIMEOUT) for cURL call gathering the RTSP information (default=10s)
+# rtsp_conn_timeout = connection timeout for cURL (CURLOPT_CONNECTTIMEOUT) call gathering the RTSP information (default=5s)
 #
 # Notice that, for 'rtsp' mountpoints, normally the plugin uses the exact
-# SDP rtpmap and fmtp attributes the remote camera or RTSP server sent.
+# SDP codec and fmtp attributes the remote camera or RTSP server sent.
 # In case the values set remotely are known to conflict with WebRTC viewers,
 # you can override both using the settings introduced above.
 #
@@ -123,10 +142,10 @@ rtp-sample: {
 	video = true
 	audioport = 5002
 	audiopt = 111
-	audiortpmap = "opus/48000/2"
+	audiocodec = "opus"
 	videoport = 5004
 	videopt = 100
-	videortpmap = "VP8/90000"
+	videocodec = "vp8"
 	secret = "adminpwd"
 }
 
@@ -139,8 +158,9 @@ rtp-sample: {
 # each identifying a single stream to add, that will then translate to
 # a dedicated m-line in the SDP. For each stream, you specify the type,
 # a unique ID (mid), and can provide a short description (label) so that
-# the client side can know what's what when rendering the streams. Notice
-# how the port/pt/rtpmap/fmtp/etc. stuff is called just like that, without
+# the client side can know what's what when rendering the streams;
+# optionally, a msid to add to the SDP m-line can be provided as well. Notice
+# how the port/pt/codec/fmtp/etc. stuff is called just like that, without
 # any audio/video/data prefix: in fact, each media stream can be configured
 # the same way, and it's the type that allows us to differentiate them.
 # As such, you can use the same approach for creating regular mountpoints
@@ -158,7 +178,7 @@ multistream-test: {
 			label = "Audio stream"
 			port = 5102
 			pt = 111
-			rtpmap = "opus/48000/2"
+			codec = "opus"
 		},
 		{
 			type = "video"
@@ -166,7 +186,7 @@ multistream-test: {
 			label = "Video stream #1"
 			port = 5104
 			pt = 100
-			rtpmap = "VP8/90000"
+			codec = "vp8"
 		},
 		{
 			type = "video"
@@ -174,7 +194,7 @@ multistream-test: {
 			label = "Video stream #2"
 			port = 5106
 			pt = 100
-			rtpmap = "VP8/90000"
+			codec = "vp8"
 		}
 	)
 	secret = "adminpwd"
@@ -232,7 +252,7 @@ file-ondemand-sample: {
 	#video = true
 	#videoport = 8004
 	#videopt = 126
-	#videortpmap = "H264/90000"
+	#videocodec = "h264"
 	#videofmtp = "profile-level-id=42e01f;packetization-mode=1"
 	#secret = "adminpwd"
 #}
@@ -272,11 +292,11 @@ file-ondemand-sample: {
 	#audioport = 5002
 	#audiomcast = "232.3.4.5"
 	#audiopt = 111
-	#audiortpmap = "opus/48000/2"
+	#audiocodec = "opus"
 	#videoport = 5004
 	#videomcast = "232.3.4.5"
 	#videopt = 100
-	#videortpmap = "VP8/90000"
+	#videocodec = "vp8"
 	#secret = "adminpwd"
 #}
 
@@ -287,7 +307,7 @@ file-ondemand-sample: {
 # authentication will only work if you installed libcurl >= 7.45.0)
 # NOTE WELL: the plugin does NOT transcode, so the RTSP stream MUST be
 # in a format the browser can digest (e.g., VP8 or H.264 baseline for video)
-# Again, you can override payload type, rtpmap and/or fmtp, if needed.
+# Again, you can override payload type, codec and/or fmtp, if needed.
 #
 #rtsp-test: {
 	#type = "rtsp"
@@ -299,4 +319,8 @@ file-ondemand-sample: {
 	#rtsp_user = "username"
 	#rtsp_pwd = "password"
 	#secret = "adminpwd"
+	#rtsp_reconnect_delay = 5
+	#rtsp_session_timeout = 0
+	#rtsp_timeout = 10
+	#rtsp_conn_timeout = 5
 #}
