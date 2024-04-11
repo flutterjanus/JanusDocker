@@ -1,1 +1,8 @@
-
+version: "3.9"  # optional since v1.27.0
+services:
+  janus-multistreaming:
+    build:
+      context: .
+      args:
+        architecture: 'arm64'
+    network_mode: host
