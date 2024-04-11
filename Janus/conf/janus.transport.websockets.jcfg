@@ -30,7 +30,7 @@ general: {
 # Admin API messaging. Notice that by default the Admin API support via
 # WebSockets is disabled.
 admin: {
-	admin_ws = false					# Whether to enable the Admin API WebSockets API
+	admin_ws = true					# Whether to enable the Admin API WebSockets API
 	admin_ws_port = 7188				# Admin API WebSockets server port, if enabled
 	#admin_ws_interface = "eth0"		# Whether we should bind this server to a specific interface only
 	#admin_ws_ip = "192.168.0.1"		# Whether we should bind this server to a specific IP address only
