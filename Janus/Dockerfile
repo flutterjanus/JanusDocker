@@ -1,4 +1,5 @@
-FROM shivanshtalwar0/januscoredeps:x86_64
+ARG architecture=x86_64
+FROM shivanshtalwar0/januscoredeps:${architecture}
 
 LABEL maintainer="shivansh talwar <shivanshtalwar0@gmail.com>"
 LABEL description="Provides an image with Janus Gateway"
