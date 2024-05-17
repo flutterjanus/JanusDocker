@@ -3,7 +3,7 @@ FROM ubuntu:24.04
 LABEL maintainer="shivansh talwar <shivanshtalwar0@gmail.com>"
 LABEL description="Provides an image with Janus Gateway dependencies"
 
-RUN apt update && apt upgrade -y 
+RUN apt update && apt upgrade -y
 
 RUN apt purge libsrtp* -y
 
@@ -22,7 +22,7 @@ RUN apt install -y nodejs
 
 RUN pip3 install meson --break-system-packages
 
-RUN aptitude install doxygen graphviz libnanomsg-dev
+RUN aptitude install doxygen graphviz libnanomsg-dev -y
 
 RUN wget https://github.com/doxygen/doxygen/archive/refs/tags/Release_1_8_11.tar.gz \
 && tar -xf Release_1_8_11.tar.gz \
@@ -43,7 +43,7 @@ RUN cd ~ \
     && ./configure \
     && make \
     && make install
-    
+
 RUN cd ~ \
     && wget https://github.com/cisco/libsrtp/archive/v2.2.0.tar.gz \
     && tar xfv v2.2.0.tar.gz && cd libsrtp-2.2.0 \
@@ -66,7 +66,7 @@ RUN cd ~ \
     && cmake -DLWS_MAX_SMP=1 -DLWS_WITHOUT_EXTENSIONS=0 -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_C_FLAGS="-fpic" .. \
     && make \
     && make install
-    
+
 RUN cd ~ \
 	&& git -c http.sslVerify=False clone https://github.com/eclipse/paho.mqtt.c.git \
 	&& cd paho.mqtt.c \
@@ -80,7 +80,7 @@ RUN cd ~ \
 	&& mkdir build && cd build \
 	&& cmake -DCMAKE_INSTALL_PREFIX=/usr .. \
 	&& make && make install
- 
+
 RUN wget https://downloads.xiph.org/releases/ogg/libogg-1.3.5.zip \
 && unzip libogg-1.3.5.zip && cd libogg-1.3.5\
 &&   ./configure &&  make && make install
@@ -93,3 +93,5 @@ RUN cd /tmp \
     && make \
     && make install
 ENV PATH "$PATH:/opt/janus-tools/bin"
+RUN rm -rf libogg-1.3.5.zip libogg-1.3.5 rabbitmq-c paho.mqtt.c libwebsockets\
+usrsctp libsrtp-2.2.0 sofia-sip libnice doxygen-Release_1_8_11
