@@ -1,1 +1,8 @@
-
+version: "3.9"  # optional since v1.27.0
+services:
+  janus-multistreaming:
+    build:
+      context: .
+      args:
+        architecture: 'orangepi'
+    network_mode: host
