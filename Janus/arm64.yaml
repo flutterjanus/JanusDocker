@@ -4,5 +4,5 @@ services:
     build:
       context: .
       args:
-        architecture: 'arm64'
+        architecture: 'darwin-arm64'
     network_mode: host
