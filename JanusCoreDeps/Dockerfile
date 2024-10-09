@@ -103,6 +103,7 @@ RUN cd /builds \
 RUN cd /builds \
     && git -c http.sslVerify=False clone https://github.com/freeswitch/sofia-sip.git \
     && cd sofia-sip \
+    && git checkout v1.13.2 \
     && sh autogen.sh \
     && ./configure \
     && make \
