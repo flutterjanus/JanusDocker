@@ -7,9 +7,6 @@ FROM --platform=${PLATFORM} ubuntu:${UBUNTU_VERSION}
 LABEL maintainer="shivansh talwar <shivanshtalwar0@gmail.com>"
 LABEL description="Provides an image with Janus Gateway dependencies"
 
-
-RUN apt purge libsrtp* -y
-
 RUN apt update && apt upgrade -y && \
     apt install -y \
     curl gcc g++ make \
