@@ -37,15 +37,15 @@ RUN aptitude install doxygen graphviz libnanomsg-dev -y
 
 RUN mkdir /builds && cd /builds
 
-RUN  cd /builds \
-    && wget https://github.com/doxygen/doxygen/archive/refs/tags/Release_1_8_11.tar.gz \
-    && tar -xf Release_1_8_11.tar.gz \
-    && cd doxygen-Release_1_8_11/ && mkdir build \
-    && cd build \
-    && cmake -G "Unix Makefiles" .. \
-    && make \
-    && make install \
-    && rm -rf /builds/Release_1_8_11.tar.gz /builds/doxygen-Release_1_8_11
+# RUN  cd /builds \
+#     && wget https://github.com/doxygen/doxygen/archive/refs/tags/Release_1_8_11.tar.gz \
+#     && tar -xf Release_1_8_11.tar.gz \
+#     && cd doxygen-Release_1_8_11/ && mkdir build \
+#     && cd build \
+#     && cmake -G "Unix Makefiles" .. \
+#     && make \
+#     && make install \
+#     && rm -rf /builds/Release_1_8_11.tar.gz /builds/doxygen-Release_1_8_11
 
 RUN cd /builds \
     && git -c http.sslVerify=False clone https://github.com/eclipse/paho.mqtt.c.git \
