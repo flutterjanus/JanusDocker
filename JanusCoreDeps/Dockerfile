@@ -7,19 +7,24 @@ FROM --platform=${PLATFORM} ubuntu:${UBUNTU_VERSION}
 LABEL maintainer="shivansh talwar <shivanshtalwar0@gmail.com>"
 LABEL description="Provides an image with Janus Gateway dependencies"
 
-RUN apt update && apt upgrade -y
 
 RUN apt purge libsrtp* -y
 
-RUN apt install \
+RUN apt update && apt upgrade -y && \
+    apt install -y \
     curl gcc g++ make \
     build-essential \
-    aptitude wget cmake ffmpeg libavutil-dev libavcodec-dev libavformat-dev python3 python3-pip nginx sudo make git graphviz flex bison \
+    aptitude wget cmake ffmpeg libavutil-dev libavcodec-dev libavformat-dev \
+    nginx sudo make git graphviz flex bison \
     libmicrohttpd-dev libjansson-dev \
     libssl-dev libsofia-sip-ua-dev libglib2.0-dev \
     libopus-dev libogg-dev libcurl4-openssl-dev liblua5.3-dev \
     python3 python3-pip python3-setuptools python3-wheel ninja-build \
-    libconfig-dev pkg-config libtool automake libcurl4-openssl-dev unzip zip -y
+    libconfig-dev pkg-config libtool automake unzip zip && \
+    apt autoremove -y && apt clean
+
+
+
 # Set environment variable for NVM
 ENV NVM_DIR=/root/.nvm
 
